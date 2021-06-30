@@ -1,0 +1,13 @@
+<div class="title">Curiosity</div>
+<div class="button-wrapper">
+    <button (click)="getTodayImages()">Today</button>
+    <button (click)="get2DaysAgoImages()">Yesterday</button>
+    <button (click)="getYesterdayImages()">2 Days Ago</button>
+</div>
+
+<div *ngFor="let photo of photos">{{photo}}</div>
+
+<!-- <tr *ngFor="let i of photos">
+    <td>Test</td>
+    <td><img [src]="i.img_src" alt="image"></td>
+</tr> -->

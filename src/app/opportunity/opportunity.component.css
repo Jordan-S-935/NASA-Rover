@@ -1,0 +1,9 @@
+.title{
+    text-align: center;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}

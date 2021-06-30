@@ -1,0 +1,8 @@
+<div class="title">Opporunity</div>
+<div class="button-wrapper">
+    <button (click)="getTodayImages()">Today</button>
+    <button (click)="get2DaysAgoImages()">Yesterday</button>
+    <button (click)="getYesterdayImages()">2 Days Ago</button>
+</div>
+
+<div *ngFor="let photo of photos">{{photo}}</div>
